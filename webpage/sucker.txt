@@ -1,0 +1,6 @@
+Someone else;MA;32432432432;master-card
+Someone else too;MA;32432432432;master-card
+Someone else too;MA;32432432432;master-card
+Someone else too;MA;32432432432;master-card
+Someone else too;BR;32432432432;master-card
+Sucker;MA;3295029052390324243;visa

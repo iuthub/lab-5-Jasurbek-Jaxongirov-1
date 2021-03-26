@@ -11,29 +11,38 @@
 		<p>
 			The rough economy, along with recent changes in University of Washington policy, now allow us to offer grades for money.  That's right!  All you need to get a 4.0 in this course is cold, hard, cash.
 		</p>
-		
+
 		<hr />
-		
-		<h2>Give Us Your Money</h2>
-		<dl>
-			<dt>Name</dt>
-			<dd>
-				???
-			</dd>
-			
-			<dt>Section</dt>
-			<dd>
-				???
-			</dd>
-			
-			<dt>Credit Card</dt>
-			<dd>
-				???
-			</dd>
-		</dl>
-		
-		<div>
-			I am a giant sucker.
-		</div>
+
+		<form action="sucker.php" method="post">
+			<h2>Give Us Your Money</h2>
+			<dl>
+				<dt>Name</dt>
+				<dd>
+					<input type="text" name="name">
+				</dd>
+
+				<dt>Section</dt>
+				<dd>
+					<select name="section" id="" value="Select a Section">
+						<option value="">(Select one option)</option>
+						<option value="MA">MA</option>
+						<option value="BR">BR</option>
+						<option value="DP">DP</option>
+						<option value="ER">ER</option>
+					</select>
+				</dd>
+
+				<dt>Credit Card</dt>
+				<dd>
+					<input type="number" name="credit-card"><br>
+					<label for="visa">Visa</label> <input type="radio" name="card-type" value="visa" id="visa">
+					<label for="mc">MasterCard</label> <input type="radio" name="card-type" value="master-card" id="mc">
+				</dd>
+			</dl>
+			<div>
+				<input type="submit" value="I am a giant sucker">
+			</div>
+		</form>
 	</body>
 </html>
